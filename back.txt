@@ -1,0 +1,120 @@
+else if 
+global.pdem = global.pzen 
+and
+global.pdem >= global.palg 
+and
+global.pdem >= global.pfar
+then
+{
+global.mng = "Demas & Zeindra"
+}
+else if 
+global.pdem >= global.pzen 
+and
+global.pdem = global.palg 
+and
+global.pdem >= global.pfar
+then
+{
+global.mng = "Demas & Algi"
+}
+else if 
+global.pdem >= global.pzen 
+and
+global.pdem >= global.palg 
+and
+global.pdem = global.pfar
+then
+{
+global.mng = "Demas & Fardiaz"
+}
+else if 
+global.palg = global.pdem 
+or
+global.palg >= global.pzen
+or
+global.palg >= global.pfar
+then
+{
+global.mng = "Algi & Demas"
+}
+else if 
+global.palg >= global.pdem 
+or
+global.palg = global.pzen
+or
+global.palg >= global.pfar
+then
+{
+global.mng = "Algi & Zeindra"
+}
+else if 
+global.palg >= global.pdem 
+or
+global.palg >= global.pzen
+or
+global.palg = global.pfar
+then
+{
+global.mng = "Algi & Fardiaz"
+}
+if 
+global.pzen = global.pdem 
+and
+global.pzen >= global.palg 
+and
+global.pzen >= global.pfar
+then
+{
+global.mng = "Zeindra & Demas"
+}
+if 
+global.pzen >= global.pdem 
+and
+global.pzen = global.palg 
+and
+global.pzen >= global.pfar
+then
+{
+global.mng = "Zeindra & Algi"
+}
+if 
+global.pzen >= global.pdem 
+and
+global.pzen >= global.palg 
+and
+global.pzen = global.pfar
+then
+{
+global.mng = "Zeindra & Fardiaz"
+}
+else if 
+global.pfar = global.pdem 
+and
+global.pfar >= global.palg 
+and
+global.pfar >= global.pzen
+then
+{
+global.mng = "Fardiaz & Demas"
+}
+else if 
+global.pfar >= global.pdem 
+and
+global.pfar = global.palg 
+and
+global.pfar >= global.pzen
+then
+{
+global.mng = "Fardiaz & Algi"
+}
+else if 
+global.pfar >= global.pdem 
+and
+global.pfar >= global.palg 
+and
+global.pfar = global.pzen
+then
+{
+global.mng = "Fardiaz & Zeindra"
+}
